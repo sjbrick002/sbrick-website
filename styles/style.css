@@ -15,8 +15,20 @@ body {
 
     /* flexbox settings */
     display: flex;
-    gap: 7px;
+    gap: 18px;
 
     /* position & size settings */
     padding: 0;
+}
+
+a {
+    /* appearance settings */
+    color: #11c607;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+img {
+    /* appearance settings */
+    border-radius: 21px;
 }
