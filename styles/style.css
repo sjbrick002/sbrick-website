@@ -5,8 +5,10 @@ html {
 
 body {
     /* appearance settings */
+    background-color: rgb(11, 38, 11);
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-size: 1.2rem;
 }
 
 .global-navigation menu {
@@ -23,7 +25,7 @@ body {
 
 a {
     /* appearance settings */
-    color: #11c607;
+    color: #52ee4a;
     font-weight: bold;
     text-decoration-line: none;
 }
@@ -31,4 +33,21 @@ a {
 img {
     /* appearance settings */
     border-radius: 21px;
+}
+
+p {
+    /* appearance settings */
+    line-height: 1.7;
+}
+
+#contact-section form {
+    /* flexbox settings */
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-section input,
+#contact-section textarea {
+    /* position & size settings */
+    margin: 3px 0px 21px;
 }
