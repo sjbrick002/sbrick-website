@@ -2,3 +2,15 @@ body {
     /* appearance settings */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.global-navigation menu {
+    /* appearance settings */
+    list-style-type: none;
+
+    /* flexbox settings */
+    display: flex;
+    gap: 7px;
+
+    /* position & size settings */
+    padding: 0;
+}
