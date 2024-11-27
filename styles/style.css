@@ -74,12 +74,18 @@ p {
 }
 
 #contact-section input {
+    /* appearance settings */
+    border-radius: 6px;
+
     /* position & size settings */
     min-height: 44px;
     width: 80%;
 }
 
 #contact-section textarea {
+    /* appearance settings */
+    border-radius: 6px;
+
     /* position & size settings */
     height: 200px;
     min-height: 44px;
@@ -88,6 +94,7 @@ p {
 #contact-section button[type="submit"] {
     /* appearance settings */
     font-size: 1.3rem;
+    font-weight: bold;
 
     /* position & size settings */
     min-height: 44px;
