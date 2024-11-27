@@ -5,7 +5,7 @@ html {
 
 body {
     /* appearance settings */
-    background-color: rgb(11, 38, 11);
+    background-color: hsl(33, 22%, 9%);
     color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
@@ -30,7 +30,7 @@ body {
 
 a {
     /* appearance settings */
-    color: #52ee4a;
+    color: hsl(113, 83%, 56%);
     font-weight: bold;
     text-decoration-line: none;
 }
