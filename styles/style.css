@@ -35,6 +35,12 @@ a {
     text-decoration-line: none;
 }
 
+a:focus,
+a:hover {
+    /* appearance settings */
+    text-decoration-line: underline;
+}
+
 section {
     /* position & size settings */
     margin: 30px 0px;
