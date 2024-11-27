@@ -99,3 +99,12 @@ button[type="submit"] p {
     /* position & size settings */
     margin: 3px auto;
 }
+
+
+details {
+    /* appearance settings */
+    background-color: black;
+
+    /* position & size settings */
+    padding: 24px;
+}
