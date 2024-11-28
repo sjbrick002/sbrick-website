@@ -30,12 +30,12 @@
         <section id="contact-section">
             <h1>Contact Samuel - That's me!</h1>
             <form action="">
-                <label for="newFriendEmail">Email</label>
-                <input type="email" name="emailAddress" id="newFriendEmail">
-                <label for="messageSubject">Subject</label>
-                <input type="text" name="emailSubject" id="messageSubject">
-                <label for="messageContent">Message</label>
-                <textarea name="emailMessage" id="messageContent"></textarea>
+                <label for="newFriendEmail">Email<sup class="required-sup">*</sup></label>
+                <input required type="email" name="emailAddress" id="newFriendEmail">
+                <label for="messageSubject">Subject<sup class="required-sup">*</sup></label>
+                <input required type="text" name="emailSubject" id="messageSubject">
+                <label for="messageContent">Message<sup class="required-sup">*</sup></label>
+                <textarea required name="emailMessage" id="messageContent"></textarea>
                 <button type="submit">
                     <p>Send</p>
                 </button>

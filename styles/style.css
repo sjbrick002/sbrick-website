@@ -73,10 +73,18 @@ p {
     flex-direction: column;
 }
 
+.required-sup {
+    color: red;
+}
+
 #contact-section input,
 #contact-section textarea {
+    /* appearance settings */
+    font-size: 1.3rem;
+
     /* position & size settings */
     margin: 3px 0px 21px;
+    padding: 0px 12px;
 }
 
 #contact-section input {
@@ -95,6 +103,7 @@ p {
     /* position & size settings */
     height: 200px;
     min-height: 44px;
+    padding: 12px;
 }
 
 #contact-section button[type="submit"] {
